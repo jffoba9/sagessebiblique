@@ -9,7 +9,8 @@ Fonctions :
 import { useEffect, useState } from 'react';
 import { createClient } from '@supabase/supabase-js';
 
-const supabase = createClient('https://xxxx.supabase.co', 'SUPABASE_PUBLIC_ANON_KEY');
+const supabase = createClient('https://eughqgvtuzskdwaajexc.supabase.co', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImV1Z2hxZ3Z0dXpza2R3YWFqZXhjIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTMwOTUxMjksImV4cCI6MjA2ODY3MTEyOX0.9QzBOlEbJDBj24MEjQ4SiRWHwD50f6v1UVN1Tsi4BEA
+');
 
 export default function App() {
   const [user, setUser] = useState(null);
