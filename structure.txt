@@ -1,0 +1,31 @@
+proverbes-app/
+├── backend/
+│   ├── package.json
+│   ├── server.js
+│   ├── routes/
+│   │   └── modules.js
+│   ├── controllers/
+│   │   └── modulesController.js
+│   ├── models/
+│   │   └── module.js
+│   └── data/
+│       └── modules.json
+├── frontend/
+│   ├── package.json
+│   ├── public/
+│   └── src/
+│       ├── App.js
+│       ├── components/
+│       │   ├── ModuleCard.js
+│       │   ├── ModuleDetail.js
+│       │   ├── Quiz.js
+│       │   └── Navigation.js
+│       ├── pages/
+│       │   ├── Home.js
+│       │   ├── ModulesList.js
+│       │   ├── Notes.js
+│       │   └── Progression.js
+│       └── assets/
+│           └── images/
+│
+├── README.md
